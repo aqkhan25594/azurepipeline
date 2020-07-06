@@ -20,7 +20,7 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName cicdlinkedtemplate  -linkedTemplateUri https://raw.githubusercontent.com/aqkhan25594/azurepipeline/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName jgav0311 -linkedTemplateUri https://raw.githubusercontent.com/aqkhan25594/azurepipeline/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployPipelineTemplate'
+    deploymentName: 'myCICDdeployement'
 
